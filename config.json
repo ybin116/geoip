@@ -109,6 +109,23 @@
       "type": "maxmindMMDB",
       "action": "output",
       "args": {
+        "outputName": "mycn.mmdb",
+        "overwriteList": [
+          "cn",
+          "private",
+          "cloudflare",
+          "cloudfront",
+          "facebook",
+          "google",
+          "telegram",
+          "twitter"
+        ]
+      }
+    },
+    {
+      "type": "maxmindMMDB",
+      "action": "output",
+      "args": {
         "outputName": "Country.mmdb",
         "overwriteList": [
           "cn",
