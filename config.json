@@ -110,7 +110,7 @@
       "action": "output",
       "args": {
         "outputName": "mycn.mmdb",
-        "overwriteList": [
+        "wantedList": [
           "cn",
           "private",
           "cloudflare",
